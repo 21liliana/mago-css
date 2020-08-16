@@ -1,0 +1,16 @@
+$modularscale: (
+  base: 1em,
+  ratio: 1.125,
+);
+
+$base-color: #ef959d;
+$accent-color: #75dbcd;
+
+@import "mago";
+
+.box {
+  width: calc(25% - 32px);
+  margin-right: 32px;
+  background-color: #cddfa0;
+  padding: $macro-space-1;
+}
